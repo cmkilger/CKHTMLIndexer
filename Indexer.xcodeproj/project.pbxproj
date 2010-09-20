@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9ACD46F61246D6AA00A756F2 /* Data Model Source Files */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9ACD46F91246D6D600A756F2 /* Build configuration list for PBXAggregateTarget "Data Model Source Files" */;
+			buildPhases = (
+				9ACD46F51246D6AA00A756F2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Data Model Source Files";
+			productName = "Data Model Source Files";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9A073356124549F2000C6D08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A073355124549F2000C6D08 /* CoreData.framework */; };
+		9A073358124549F2000C6D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A073357124549F2000C6D08 /* Foundation.framework */; };
+		9A07335B124549F3000C6D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07335A124549F3000C6D08 /* main.m */; };
+		9ACD45E8124571C900A756F2 /* CKHTMLIndexerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD45E7124571C900A756F2 /* CKHTMLIndexerDataModel.m */; };
+		9ACD46171245DBF100A756F2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACD46161245DBF100A756F2 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACD477B1246D77600A756F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A073346124549F2000C6D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACD46F61246D6AA00A756F2 /* Data Model Source Files */;
+			remoteInfo = "Data Model Source Files";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A07334F124549F2000C6D08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A073351124549F2000C6D08 /* html_indexer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = html_indexer; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A073355124549F2000C6D08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A073357124549F2000C6D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A07335A124549F3000C6D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A07335D124549F3000C6D08 /* Indexer_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Indexer_Prefix.pch; sourceTree = "<group>"; };
+		9A07335F124549F3000C6D08 /* HTMLIndexer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTMLIndexer.xcdatamodel; sourceTree = "<group>"; };
+		9ACD45E6124571C900A756F2 /* CKHTMLIndexerDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHTMLIndexerDataModel.h; sourceTree = "<group>"; };
+		9ACD45E7124571C900A756F2 /* CKHTMLIndexerDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHTMLIndexerDataModel.m; sourceTree = "<group>"; };
+		9ACD46161245DBF100A756F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9ACD462A1245DF9600A756F2 /* CKHTMLIndexerFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHTMLIndexerFile.h; sourceTree = "<group>"; };
+		9ACD462B1245DF9600A756F2 /* CKHTMLIndexerFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHTMLIndexerFile.m; sourceTree = "<group>"; };
+		9ACD462C1245DF9600A756F2 /* CKHTMLIndexerWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHTMLIndexerWord.h; sourceTree = "<group>"; };
+		9ACD462D1245DF9600A756F2 /* CKHTMLIndexerWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHTMLIndexerWord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A07334E124549F2000C6D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A073356124549F2000C6D08 /* CoreData.framework in Frameworks */,
+				9A073358124549F2000C6D08 /* Foundation.framework in Frameworks */,
+				9ACD46171245DBF100A756F2 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A073344124549F2000C6D08 = {
+			isa = PBXGroup;
+			children = (
+				9A07334B124549F2000C6D08 /* Source */,
+				9A073352124549F2000C6D08 /* Products */,
+				9A073354124549F2000C6D08 /* Frameworks */,
+				9A07335C124549F3000C6D08 /* Other Sources */,
+				9A07335E124549F3000C6D08 /* Model */,
+				9ACD46161245DBF100A756F2 /* AppKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		9A07334B124549F2000C6D08 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9A07335A124549F3000C6D08 /* main.m */,
+				9ACD45E6124571C900A756F2 /* CKHTMLIndexerDataModel.h */,
+				9ACD45E7124571C900A756F2 /* CKHTMLIndexerDataModel.m */,
+				9ACD462A1245DF9600A756F2 /* CKHTMLIndexerFile.h */,
+				9ACD462B1245DF9600A756F2 /* CKHTMLIndexerFile.m */,
+				9ACD462C1245DF9600A756F2 /* CKHTMLIndexerWord.h */,
+				9ACD462D1245DF9600A756F2 /* CKHTMLIndexerWord.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9A073352124549F2000C6D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A073351124549F2000C6D08 /* html_indexer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A073354124549F2000C6D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A073355124549F2000C6D08 /* CoreData.framework */,
+				9A073357124549F2000C6D08 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A07335C124549F3000C6D08 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9A07335D124549F3000C6D08 /* Indexer_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		9A07335E124549F3000C6D08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A07335F124549F3000C6D08 /* HTMLIndexer.xcdatamodel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A073350124549F2000C6D08 /* html_indexer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A073363124549F3000C6D08 /* Build configuration list for PBXNativeTarget "html_indexer" */;
+			buildPhases = (
+				9A07334D124549F2000C6D08 /* Sources */,
+				9A07334E124549F2000C6D08 /* Frameworks */,
+				9A07334F124549F2000C6D08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACD477C1246D77600A756F2 /* PBXTargetDependency */,
+			);
+			name = html_indexer;
+			productName = Indexer;
+			productReference = 9A073351124549F2000C6D08 /* html_indexer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A073346124549F2000C6D08 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9A073349124549F2000C6D08 /* Build configuration list for PBXProject "Indexer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A073344124549F2000C6D08;
+			productRefGroup = 9A073352124549F2000C6D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACD46F61246D6AA00A756F2 /* Data Model Source Files */,
+				9A073350124549F2000C6D08 /* html_indexer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ACD46F51246D6AA00A756F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$DEVELOPER_BIN_DIR/momc HTMLIndexer.xcdatamodel $BUILT_PRODUCTS_DIR/HTMLIndexer.mom\n~/.bin/data2source $BUILT_PRODUCTS_DIR/HTMLIndexer.mom Source/CKHTMLIndexerDataModel CKHTMLIndexerDataModelData";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A07334D124549F2000C6D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A07335B124549F3000C6D08 /* main.m in Sources */,
+				9ACD45E8124571C900A756F2 /* CKHTMLIndexerDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACD477C1246D77600A756F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACD46F61246D6AA00A756F2 /* Data Model Source Files */;
+			targetProxy = 9ACD477B1246D77600A756F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A073361124549F3000C6D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		9A073362124549F3000C6D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		9A073364124549F3000C6D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Indexer_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = html_indexer;
+			};
+			name = Debug;
+		};
+		9A073365124549F3000C6D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Indexer_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = html_indexer;
+			};
+			name = Release;
+		};
+		9ACD46F71246D6AA00A756F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Data Model Source Files";
+			};
+			name = Debug;
+		};
+		9ACD46F81246D6AA00A756F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Data Model Source Files";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A073349124549F2000C6D08 /* Build configuration list for PBXProject "Indexer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A073361124549F3000C6D08 /* Debug */,
+				9A073362124549F3000C6D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A073363124549F3000C6D08 /* Build configuration list for PBXNativeTarget "html_indexer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A073364124549F3000C6D08 /* Debug */,
+				9A073365124549F3000C6D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACD46F91246D6D600A756F2 /* Build configuration list for PBXAggregateTarget "Data Model Source Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACD46F71246D6AA00A756F2 /* Debug */,
+				9ACD46F81246D6AA00A756F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A073346124549F2000C6D08 /* Project object */;
+}

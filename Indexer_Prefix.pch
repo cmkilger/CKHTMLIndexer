@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Indexer' target in the 'Indexer' project
+//
+
+#ifdef __OBJC__
+	#import <CoreData/CoreData.h>
+#endif
