@@ -4,7 +4,7 @@ CKHTMLIndexer indexes a set of HTML files, associating words to file paths.  I s
 
 ##Usage
 
-html_indexer <path/to/directory> <path/to/output/index> [blacklist.txt]
+html\_indexer _directorypath_ _indexpath_ [blacklistpath]
 
 This will index the given directory and generate a Core Data SQLite file at the index path.  It will also generate HTMLIndexer.mom, a Core Data model file, next to the index file.  This needs to be used in the application that loads the index file. Any words contained in the blacklist file are ignored.
 
